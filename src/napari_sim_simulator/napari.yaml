@@ -2,10 +2,10 @@ name: napari-sim-SIMulator
 display_name: napari SIMulator
 contributions:
   commands:
-    - id: napari-sim-SIMulator.make_widget
-      python_name: napari_sim_simulator._widget:SIMulator.w
+    - id: napari-sim-SIMulator.make_simulator_widget
+      python_name: napari_sim_simulator._widget:SIMulator().w
       title: raw images SIMulator
 
   widgets:
-    - command: napari-sim-SIMulator.make_widget
+    - command: napari-sim-SIMulator.make_simulator_widget
       display_name: raw images SIMulator
