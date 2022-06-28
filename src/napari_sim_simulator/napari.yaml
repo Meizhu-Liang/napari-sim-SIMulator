@@ -3,7 +3,7 @@ display_name: napari SIMulator
 contributions:
   commands:
     - id: napari-sim-SIMulator.make_widget
-      python_name: napari_sim_simulator._widget:SIMulator
+      python_name: napari_sim_simulator._widget:SIMulator.w
       title: raw images SIMulator
 
   widgets:
