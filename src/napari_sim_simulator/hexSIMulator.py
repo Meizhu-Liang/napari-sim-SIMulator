@@ -2,7 +2,7 @@
 Two child classes to simulate raw data of HexSim. @author: Meizhu Liang @Imperial College
 """
 
-from baseSIMulator import Base_simulator
+from .baseSIMulator import Base_simulator
 import numpy as np
 
 
