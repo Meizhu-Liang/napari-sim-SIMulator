@@ -13,11 +13,9 @@ class Sim_mode(Enum):
     HEXSIM_RIGHT_ANGLES = 1
     SIM_CONV = 2  # Conventional 2-beam SIM
 
-
 class Pol(Enum):
     IN_PLANE = 0
     AXIAL = 1
-
 
 class Accel(Enum):
     USE_NUMPY = 0
