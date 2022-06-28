@@ -7,7 +7,6 @@ from enum import Enum
 from baseSIMulator import import_cp
 from hexSIMulator import HexSim_simulator, RightHexSim_simulator
 import napari
-from napari.qt.threading import thread_worker
 
 
 class Sim_mode(Enum):
