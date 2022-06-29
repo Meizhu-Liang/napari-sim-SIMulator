@@ -18,6 +18,7 @@ class Sim_mode(Enum):
 class Pol(Enum):
     IN_PLANE = 0
     AXIAL = 1
+    CIRCULAR = 2
 
 class Accel(Enum):
     USE_NUMPY = 0
