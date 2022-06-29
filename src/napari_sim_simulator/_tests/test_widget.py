@@ -1,5 +1,3 @@
-import numpy as np
-
 from napari_sim_simulator import SIMulator_widget
 
 
