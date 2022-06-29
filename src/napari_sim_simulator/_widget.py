@@ -2,7 +2,7 @@
 @authors: Meizhu Liang @Imperial College
 """
 
-from magicgui import magicgui,widgets
+from magicgui import magicgui
 from magicgui.widgets import Container
 from enum import Enum
 from napari_sim_simulator.baseSIMulator import import_cp

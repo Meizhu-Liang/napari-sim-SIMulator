@@ -1,5 +1,5 @@
 name: napari-sim-SIMulator
-display_name: napari SIMulator
+display_name: napari sim SIMulator
 contributions:
   commands:
     - id: napari-sim-SIMulator.make_simulator_widget
