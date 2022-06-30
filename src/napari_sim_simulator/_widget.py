@@ -9,7 +9,6 @@ from napari_sim_simulator.baseSIMulator import import_cp
 from napari_sim_simulator.hexSIMulator import HexSim_simulator, RightHexSim_simulator
 import napari
 
-
 class Sim_mode(Enum):
     HEXSIM = 0
     HEXSIM_RIGHT_ANGLES = 1
@@ -18,7 +17,6 @@ class Sim_mode(Enum):
 class Pol(Enum):
     IN_PLANE = 0
     AXIAL = 1
-    CIRCULAR = 2
 
 class Accel(Enum):
     USE_NUMPY = 0
